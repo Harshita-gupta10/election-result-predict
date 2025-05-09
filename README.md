@@ -37,10 +37,11 @@ election_prediction/
 
 ## ⚙️ Setup & Installation
 
-### 1. Clone the Repository
+### 1. Python version and Clone the Repository
+Use Python 3.9.6
 ```bash
-git clone 
-cd election-results-prediction-model
+git clone https://github.com/Harshita-gupta10/election-result-predict.git
+cd election-results-predict
 ```
 
 ### 2. Install Dependencies
@@ -49,12 +50,12 @@ pip install -r requirements.txt
 ```
 
 ### 3. Download Required NLTK Resources
-```python
-import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('vader_lexicon')
+```
+python -c "import nltk;
+nltk.download('punkt');
+nltk.download('stopwords');
+nltk.download('wordnet');
+nltk.download('vader_lexicon')"
 ```
 
 ### 4. Configure News API Key
