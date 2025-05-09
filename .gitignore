@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+
+# Data (exclude raw and processed data to avoid pushing large files)
+data/raw/*
+data/processed/*
+data/interim/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/interim/.gitkeep
+
+# Models
+models/saved/*
+!models/saved/.gitkeep
+
+# Log files
+logs/*
+!logs/.gitkeep
+
+# Results
+results/*
+!results/.gitkeep
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# API Keys
+config/api_keys.ini
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
